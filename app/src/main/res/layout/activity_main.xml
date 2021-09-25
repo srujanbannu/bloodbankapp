@@ -43,16 +43,29 @@
         android:layout_centerHorizontal="true" />
 
 
-
+    <Button
+        android:id="@+id/btn_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/home_button"
+        android:padding="20dp"
+        android:text="feedback"
+        android:textColor="@color/White"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/btn_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="80dp"
-        android:layout_marginBottom="87dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="102dp"
         android:background="@drawable/home_button"
         android:padding="20dp"
         android:text="Informations"
@@ -60,32 +73,30 @@
         android:textSize="20dp" />
 
     <Button
-        android:text="Signout"
-        android:background="@drawable/home_button"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_above="@+id/btn_info"
-        android:textColor="@color/White"
         android:id="@+id/siout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </Button>
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_info"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/home_button"
+        android:text="Signout"
+        android:textColor="@color/White"></Button>
 
 </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/lay"
         android:layout_width="395dp"
-        android:background="#FFF"
-        android:layout_height="715dp">
+        android:layout_height="715dp"
+        android:background="#FFF">
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_gravity="center">
-        </com.google.android.gms.common.SignInButton>
+            android:layout_gravity="center"></com.google.android.gms.common.SignInButton>
     </RelativeLayout>
 
 

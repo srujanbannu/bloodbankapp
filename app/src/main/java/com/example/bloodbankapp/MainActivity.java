@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     Button buttonDonor,sinout;
     Button buttonInfo;
     Button needBlood;
+    Button buttonfeedback;
 
     public static String donorId="no";
     SharedPreferences sharedPreferences;
@@ -89,7 +90,13 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             l.setVisibility(View.VISIBLE);
         }
     });
-
+        buttonfeedback = (Button) findViewById(R.id.btn_feedback);
+        buttonfeedback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, feedback.class));
+            }
+        });
 
         buttonInfo = (Button) findViewById(R.id.btn_info);
         buttonInfo.setOnClickListener(new View.OnClickListener() {
