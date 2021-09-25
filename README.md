@@ -29,11 +29,11 @@ I have used FIREBASE for the DATABASE, Android Studios as platform and JAVA as p
 <img src="R3.jpeg" width="280px" alt="Screenshot" />
 
 # DATABASE == FIREBASE :
-<img src="FB1.jpeg" width="280px" alt="Screenshot" />
+<img src="FB1.PNG" width="280px" alt="Screenshot" />
 
-<img src="FB2.jpeg" width="280px" alt="Screenshot" />
+<img src="FB2.PNG" width="280px" alt="Screenshot" />
 
-<img src="FB3.jpeg" width="280px" alt="Screenshot" />
+<img src="FB3.PNG" width="280px" alt="Screenshot" />
 
 # Images of pending request and accepted request:
 <img src="R4.jpeg" width="280px" alt="Screenshot" />
